@@ -9,6 +9,11 @@ body {
     color: white;
 }
 
+.index{
+    background-image:url(/img/huis1.jpg);
+    background-size: 667px, 375px;
+}
+
 h1 {
     text-align: center;
     margin-left: 1em;
@@ -32,7 +37,7 @@ h3 {
     text-align: center;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
     margin-top: 3em;
 }
 
@@ -64,6 +69,7 @@ button {
     min-height: 4em;
     font-size: 1.2em;
     color: white;
+    background-color: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
 
 }
 
@@ -178,4 +184,58 @@ p {
 li {
     padding: 0 0 0 0;
     margin-left: 2em;
+}
+
+.slide{
+    width: 375px;
+    height: 667px;
+}
+
+
+
+
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+.slider figure img{
+    float: left;
+    width: 20%;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
 }
