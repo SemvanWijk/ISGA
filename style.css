@@ -144,7 +144,7 @@ p {
 }
 
 .back {
-    width: 2.3em;
+    width: 1.3em;
     height: auto;
     margin-left: 1.6em;
     margin-top: 1em;
@@ -171,6 +171,15 @@ p {
     height: auto;
     margin-left: 7.5em;
     margin-top: 2em;
+}
+
+.logoback {
+    width: 5em;
+    height: auto;
+    margin-left: 5em;
+    margin-top: 2em;
+    margin-right: 9em;
+    margin-bottom: 1em;
 }
 
 .hamburger {
