@@ -10,8 +10,7 @@ body {
 }
 
 .index{
-    background-image:url(/img/huis1.jpg);
-    background-size: 667px, 375px;
+    overflow: hidden;
 }
 
 h1 {
@@ -69,7 +68,8 @@ button {
     min-height: 4em;
     font-size: 1.2em;
     color: white;
-    background-color: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
+    background-image: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
+    border: 0;
 
 }
 
@@ -82,7 +82,7 @@ button {
 
 button a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 p {
@@ -108,6 +108,7 @@ p {
 .text-km {
     text-align: right;
     margin-right: 2em;
+    margin-left: 0.5em;
 }
 
 .map {
@@ -126,10 +127,9 @@ p {
 }
 
 .heart {
-    width: 2em;
+    width: 1.5em;
     height: auto;
-    margin-right: auto;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 
 .bin {
@@ -189,8 +189,15 @@ li {
 .slide{
     width: 375px;
     height: 667px;
+    z-index: -1;
 }
-
+.noslide{
+    position: fixed;
+    z-index: 4;
+}
+.main{
+    margin: 0;
+}
 
 
 
