@@ -9,7 +9,7 @@ body {
     color: white;
 }
 
-.index{
+.index {
     overflow: hidden;
 }
 
@@ -31,7 +31,8 @@ h2 {
     margin-bottom: 1em;
     margin-top: 1em;
 }
-.top{
+
+.top {
     margin-top: 4em;
 }
 
@@ -51,7 +52,7 @@ h4 {
     margin-top: 1em;
 }
 
-.shadow{
+.shadow {
     text-shadow: 1px 1px 1px #000000;
 }
 
@@ -119,6 +120,7 @@ p {
     margin-left: 3em;
     margin-right: 3em;
 }
+
 .infotext {
     margin-left: 3em;
     margin-right: 3em;
@@ -200,9 +202,9 @@ p {
     margin-bottom: 1em;
 }
 
-.logonav{
+.logonav {
     width: 100%;
-    position:fixed;
+    position: fixed;
     top: 0;
     background: linear-gradient(to right, rgb(113, 112, 228), #c45cc4);
 }
@@ -236,7 +238,7 @@ p {
     border-radius: 1em;
     color: black;
     border: none;
-    box-shadow: 4px 4px 0px 4px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 0px 4px rgba(0, 0, 0, 0.75);
     padding-bottom: 2em;
 }
 
@@ -251,27 +253,30 @@ li {
     margin-left: 2em;
 }
 
-a li{
+a li {
     color: #000000;
 }
 
-.slide{
+.slide {
     width: 375px;
     height: 667px;
     z-index: -1;
 }
-.noslide{
+
+.noslide {
     position: fixed;
     z-index: 4;
 }
-.main{
+
+.main {
     margin: 0;
 }
 
-.slider{
+.slider {
     overflow: hidden;
 }
-.slider figure{
+
+.slider figure {
     position: relative;
     width: 500%;
     margin: 0;
@@ -279,43 +284,53 @@ a li{
     animation: 10s slider infinite;
 }
 
-.slider figure img{
+.slider figure img {
     float: left;
     width: 20%;
 }
 
-@keyframes slider{
-    0%{
+@keyframes slider {
+    0% {
         left: 0;
     }
-    10%{
+
+    10% {
         left: 0;
     }
-    20%{
+
+    20% {
         left: -100%;
     }
-    30%{
+
+    30% {
         left: -100%;
     }
-    40%{
+
+    40% {
         left: -200%;
     }
-    50%{
+
+    50% {
         left: -200%;
     }
-    60%{
+
+    60% {
         left: -300%;
     }
-    70%{
+
+    70% {
         left: -300%;
     }
-    80%{
+
+    80% {
         left: -400%;
     }
-    90%{
+
+    90% {
         left: -400%;
     }
-    100%{
+
+    100% {
         left: 0;
     }
 }
