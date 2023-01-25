@@ -4,7 +4,7 @@ body {
     width: 375px;
     font-family: "Raleway";
     src: url(/fonts/Raleway/OFL.txt);
-    margin-bottom: 15em;
+    margin-bottom: 6em;
     background: linear-gradient(to right, rgb(113, 112, 228), #c45cc4);
     color: white;
 }
