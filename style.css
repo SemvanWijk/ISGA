@@ -66,8 +66,21 @@ button {
     color: white;
 }
 
-.startbutton {
+.gobutton {
     margin-left: 5em;
+    margin-right: 1em;
+    margin-top: 1em;
+    min-width: 10em;
+    min-height: 4em;
+    font-size: 1.2em;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
+    border: 0;
+
+}
+
+.startbutton {
+    margin-left: 3.2em;
     margin-right: 1em;
     margin-top: 1em;
     min-width: 10em;
@@ -88,6 +101,8 @@ button {
     border: none;
 }
 
+
+
 button a {
     text-decoration: none;
     color: white;
@@ -97,13 +112,25 @@ p {
     text-decoration: none;
     list-style-type: none;
     margin: 0;
-
     padding: 0;
 }
 
 .text {
     margin-left: 3em;
     margin-right: 3em;
+}
+.infotext {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-top: 1em;
+}
+
+.warning {
+    margin-left: 3em;
+    margin-right: 3em;
+    color: #cccc00;
+    font-size: 0.8em;
+    text-align: center;
 }
 
 .title {
@@ -125,6 +152,16 @@ p {
     margin-top: 1em;
     width: 16em;
     height: auto;
+    border-radius: 0.4em;
+}
+
+.infomap {
+    margin-left: 1.6em;
+    margin-right: 2em;
+    margin-top: 1em;
+    width: 16em;
+    height: auto;
+    border-radius: 0.6em;
 }
 
 .bigmap {
@@ -166,7 +203,6 @@ p {
 .logonav{
     width: 100%;
     position:fixed;
-    background-color: cyan;
     top: 0;
     background: linear-gradient(to right, rgb(113, 112, 228), #c45cc4);
 }
@@ -215,9 +251,9 @@ li {
     margin-left: 2em;
 }
 
-
-
-
+a li{
+    color: #000000;
+}
 
 .slide{
     width: 375px;
