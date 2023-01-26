@@ -77,7 +77,6 @@ button {
     color: white;
     background-image: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
     border: 0;
-
 }
 
 .startbutton {
@@ -90,7 +89,6 @@ button {
     color: white;
     background-image: linear-gradient(to bottom right, rgb(113, 112, 228), #c45cc4);
     border: 0;
-
 }
 
 .routebutton {
@@ -130,7 +128,8 @@ p {
 .warning {
     margin-left: 3em;
     margin-right: 3em;
-    color: #cccc00;
+    color: black;
+    font-weight: bold;
     font-size: 0.8em;
     text-align: center;
 }
